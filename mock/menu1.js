@@ -2,10 +2,11 @@ const Mock = require('mockjs')
 
 const List = []
 const count = 100
+let idCounter = 1 // 初始值设为 1
 
 for (let i = 0; i < count; i++) {
   List.push(Mock.mock({
-    id: '@increment',
+    id: () => idCounter++, // 手动递增
     timestamp: Mock.Random.datetime(),
     author: '@cname',
     title: '@ctitle( 24, 30 )',

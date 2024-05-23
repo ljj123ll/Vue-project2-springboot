@@ -6,12 +6,12 @@
       </el-form-item>
       <el-form-item label="发布机构">
         <el-select v-model="form.region" placeholder="请选择机构">
-          <el-option label="第一所" value="第一所" />
-          <el-option label="第二所" value="第二所" />
-          <el-option label="第三所" value="第三所" />
-          <el-option label="第四所" value="第四所" />
-          <el-option label="第五所" value="第五所" />
-          <el-option label="第六所" value="第六所" />
+          <el-option label="第一人民大会堂" value="第一人民大会堂" />
+          <el-option label="办公室" value="办公室" />
+          <el-option label="会议厅" value="会议厅" />
+          <el-option label="议事部" value="议事部" />
+          <el-option label="中央会堂" value="中央会堂" />
+          <el-option label="人民酒店" value="人民酒店" />
         </el-select>
         <!-- 发布机构 -->
       </el-form-item>

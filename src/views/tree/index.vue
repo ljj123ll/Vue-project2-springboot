@@ -382,7 +382,7 @@ export default {
       this.$refs['dataForm'].validate((valid) => {
         if (valid) {
           // 设置基础数据
-          this.temp.id = parseInt(Math.random() * 100) + 1024 // mock a id
+          this.temp.id = 101
           this.temp.author = ''
           // 到后端请求新增数据
           createArticle(this.temp).then(() => {

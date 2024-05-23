@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import zhuce from '@/views/login/zhuce.vue'
 Vue.use(Router)
 
 /* Layout */
@@ -70,7 +69,7 @@ export const constantRoutes = [
   {
     path: '/',
     redirect: '/login',
-    hidden:true,
+    hidden: true,
     children: [{
       path: 'login',
       name: 'Dashboard',
